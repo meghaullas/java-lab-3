@@ -1,1 +1,3 @@
-# java-lab-3
+# java-lab-3.1
+This Java payroll system uses inheritance to manage different employee types. The base `Employee` class holds common attributes, while `HourlyEmployee` and `SalariedEmployee` extend it with specific pay structures. `ExecutiveEmployee`, further derived from `SalariedEmployee`, adds a bonus percentage for annual bonus calculation. Each class overrides methods to calculate salary and bonus based on employee type, and displays detailed information. The `PayrollSystem` main class demonstrates polymorphism by creating and displaying different employee objects with tailored salary and bonus calculations.
+![Uploading image.png…]()
